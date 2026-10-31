@@ -1,0 +1,36 @@
+# Python caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local Python environments
+.venv/
+midterm_dashboard/.venv/
+
+# Generated dashboard artifacts
+midterm_dashboard/outputs/
+
+# Local backups and experiment output
+jetson_backup/
+results/
+
+# Machine-specific usernames, addresses, and launch commands
+/COMMANDS.local.md
+
+# Tests excluded from the submitted repository
+midterm_dashboard/tests/
+
+# Large archives and model files
+*.tar
+*.tar.gz
+*.zip
+*.pt
+*.pth
+*.safetensors
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

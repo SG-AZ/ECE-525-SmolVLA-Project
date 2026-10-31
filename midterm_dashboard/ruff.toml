@@ -1,0 +1,4 @@
+extend = "../lerobot/pyproject.toml"
+exclude = [".venv", "outputs"]
+[lint]
+ignore = ["D101", "D102", "D103", "D107", "D403"]
